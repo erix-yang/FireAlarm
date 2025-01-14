@@ -35,16 +35,6 @@
 			path = FireAlarm;
 			sourceTree = "<group>";
 		};
-		8D38C68F2CDC980E006F2BA5 /* FireAlarmTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FireAlarmTests;
-			sourceTree = "<group>";
-		};
-		8D38C6992CDC980E006F2BA5 /* FireAlarmUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FireAlarmUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				8D38C6792CDC980D006F2BA5 /* FireAlarm */,
-				8D38C68F2CDC980E006F2BA5 /* FireAlarmTests */,
-				8D38C6992CDC980E006F2BA5 /* FireAlarmUITests */,
 				8D38C6782CDC980D006F2BA5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				8D38C68E2CDC980E006F2BA5 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				8D38C68F2CDC980E006F2BA5 /* FireAlarmTests */,
-			);
 			name = FireAlarmTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				8D38C6982CDC980E006F2BA5 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8D38C6992CDC980E006F2BA5 /* FireAlarmUITests */,
 			);
 			name = FireAlarmUITests;
 			packageProductDependencies = (

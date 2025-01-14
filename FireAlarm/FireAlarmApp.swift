@@ -9,12 +9,16 @@ import SwiftUI
 
 @main
 struct FireAlarmApp: App {
-    let persistenceController = PersistenceController.shared
-
+    @AppStorage("isLoggedIn") private var isLoggedIn: Bool = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            if isLoggedIn {
+                MainTabView()
+            } else {
+                LoginView()
+            }
         }
     }
 }
+
